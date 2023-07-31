@@ -1,0 +1,48 @@
+/* Estilos para el enlace de la marca (navbar-brand) */
+.navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para los enlaces en la barra de navegación */
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+  
+  /* Estilos para el botón de búsqueda */
+  .btn-outline-light {
+    color: #fff; /* Color del texto del botón */
+    border-color: #fff; /* Color del borde del botón */
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #fff; /* Color de fondo al pasar el cursor sobre el botón */
+    color: #3d3d3d; /* Color del texto al pasar el cursor sobre el botón */
+  }
+  
+  /* Estilo para el botón de búsqueda al estar enfocado */
+  .btn-outline-light:focus {
+    box-shadow: none; /* Eliminar el sombreado al estar enfocado */
+  }
+  
+  /* Estilos para el input de búsqueda */
+  .form-control {
+    border-radius: 0;
+  }
+  
+  /* Estilos para el botón del menú desplegable en pantallas pequeñas */
+  .navbar-toggler {
+    border: none;
+  }
+  
+  /* Estilos para el ícono del menú desplegable en pantallas pequeñas */
+  .navbar-toggler-icon {
+    background-color: #fff; /* Color del ícono */
+  }
+  
+  /* Estilo para el ícono del menú desplegable al estar enfocado */
+  .navbar-toggler:focus {
+    outline: none; /* Eliminar el contorno al estar enfocado */
+  }
+  

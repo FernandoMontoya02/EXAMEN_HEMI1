@@ -1,0 +1,47 @@
+/* Estilos para la tarjeta (card) */
+.card {
+    border: none; /* Eliminar el borde de la tarjeta */
+  }
+  
+  /* Estilo de fondo para la tarjeta */
+  .bg-light {
+    background-color: #f8f9fa; /* Color de fondo - puedes cambiarlo a tu preferencia */
+  }
+  
+  /* Estilos para los títulos */
+  .titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Color del título - puedes cambiarlo a tu preferencia */
+  }
+  
+  /* Estilos para los campos de entrada (inputs) */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #333; /* Color del texto de las etiquetas - puedes cambiarlo a tu preferencia */
+  }
+  
+  .form-control {
+    border-radius: 0;
+    border-color: #ccc; /* Color del borde de los campos de entrada - puedes cambiarlo a tu preferencia */
+  }
+  
+  /* Estilos para el botón de guardar */
+  .btn-primary {
+    background-color: #007bff; /* Color del botón - puedes cambiarlo a tu preferencia */
+    border-color: #007bff; /* Color del borde del botón - puedes cambiarlo a tu preferencia */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el cursor sobre el botón - puedes cambiarlo a tu preferencia */
+    border-color: #0056b3; /* Color del borde al pasar el cursor sobre el botón - puedes cambiarlo a tu preferencia */
+  }
+  
+  .btn-primary:focus {
+    box-shadow: none; /* Eliminar el sombreado al estar enfocado */
+  }
+  

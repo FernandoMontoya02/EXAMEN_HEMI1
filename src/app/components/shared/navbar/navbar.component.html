@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3d3d3d;">
+    <div class="container-fluid">
+        <img src="assets/img/A-64.png" alt="Logo" width="30" height="24">
+        <a class="navbar-brand" href="#">Nombre de la Aplicación</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" [routerLink]="['home']">Ingreso Clientes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" [routerLink]="['listac']">Lista</a>
+                </li>
+            </ul>
+            <div class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" (keyup.enter)="buscarCliente(buscarTexto.value)" #buscarTexto aria-label="Search">
+                <button (click)="buscarCliente(buscarTexto.value)" type="button" class="btn btn-outline-light">Buscar</button>
+            </div>
+        </div>
+    </div>
+</nav>

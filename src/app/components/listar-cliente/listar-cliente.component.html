@@ -1,0 +1,33 @@
+<h1 class="display-4">Agregados Recientemente</h1>
+<table class="table table-minimalist">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Codigo</th>
+            <th scope="col">Fecha</th>
+            <th scope="col">Cliente</th>
+            <th scope="col">Celular</th>
+            <th scope="col">Descripcion</th>
+            <th scope="col">Editar</th>
+            <th scope="col">Eliminar</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let clien of listCliente">
+            <td>{{clien.codigo}}</td>
+            <td>{{clien.fecha}}</td>
+            <td>{{clien.cliente}}</td>
+            <td>{{clien.celular}}</td>
+            <td>{{clien.descripcion}}</td>
+            <td>
+                <button [routerLink]="['/editCliente/', clien.id]" class="btn btn-link text-info">
+                    Editar
+                </button>
+            </td>
+            <td>
+                <button (click)="eliminarBoleto(clien.id)" class="btn btn-link text-danger">
+                    Eliminar
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>

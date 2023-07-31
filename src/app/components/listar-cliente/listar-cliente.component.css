@@ -1,0 +1,43 @@
+/* Estilos generales para la tabla */
+.table-minimalist {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-minimalist th,
+.table-minimalist td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.table-minimalist th {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para los botones de editar y eliminar */
+.btn-link {
+  background: none;
+  border: none;
+  color: #007bff; /* Color azul para editar - puedes cambiarlo a tu preferencia */
+  cursor: pointer;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para los botones al estar enfocados (focus) */
+.btn-link:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+/* Estilos para el botón de eliminar */
+.btn-link.text-danger {
+  color: #dc3545; /* Color rojo para eliminar - puedes cambiarlo a tu preferencia */
+}
+
+.btn-link.text-danger:hover {
+  text-decoration: underline;
+}
